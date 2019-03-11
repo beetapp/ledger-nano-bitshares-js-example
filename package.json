@@ -1,0 +1,34 @@
+{
+  "name": "ledger-nano-bitshares-js-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clockworkgr/ledger-nano-bitshares-js-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clockworkgr/ledger-nano-bitshares-js-example/issues"
+  },
+  "homepage": "https://github.com/clockworkgr/ledger-nano-bitshares-js-example#readme",
+  "dependencies": {
+    "@ledgerhq/hw-transport-node-hid": "^4.44.2",
+    "python-struct": "^1.0.6",
+    "varint": "^5.0.0",
+    "bitsharesjs": "^1.8.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "nodemon": "^1.18.10"
+  }
+}
